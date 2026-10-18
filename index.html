@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abba Landscaping | Landscape construction in Vancouver and the Lower Mainland since 2009</title>
+  <meta name="description" content="Retaining walls, paver driveways, patios, turf, decks and masonry in Vancouver and the Lower Mainland. One crew from start to finish since 2009. Free estimates.">
+  <link rel="preload" href="fonts/schibsted-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===================== HERO + HEADER ===================== -->
+<section class="hero">
+  <!-- Photos are hotlinked from abbalandscaping.ca. Later, swap for local copies in an /images folder. -->
+  <img class="hero-img" src="https://www.abbalandscaping.ca/wp-content/uploads/2026/05/IMG-20260329-WA004411_1778766468128.jpg-scaled.webp" alt="Finished backyard with pavers, retaining wall and turf">
+  <div class="hero-shade"></div>
+
+  <header class="site-header">
+    <a href="#" class="logo">
+      <span class="logo-word">abba</span>
+      <span class="logo-sub">landscape<br>construction</span>
+    </a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#estimate">Contact</a>
+    </nav>
+    <!-- TODO: replace the placeholder phone number (555) everywhere in this file -->
+    <a href="tel:+16045550147" class="header-phone">(604) 555-0147</a>
+    <a href="#estimate" class="btn btn-lime">Get a Free Estimate</a>
+    <button type="button" class="menu-btn open-menu" data-menu-open aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+  </header>
+
+  <div class="hero-body">
+    <h1>Landscape construction built to last.</h1>
+    <div class="hero-row">
+      <p>Serving Vancouver and the Lower Mainland since 2009. Retaining walls, paver driveways, patios, turf, decks and outdoor living spaces, designed and built by one crew from start to finish.</p>
+      <a href="#projects" class="text-link">See Our Work</a>
+    </div>
+
+    <!-- Picking a chip pre-fills "Project type" in the estimate form -->
+    <div class="picker">
+      <span class="picker-label">What are you building?</span>
+      <div class="chips">
+        <button type="button" class="chip" aria-pressed="false">Retaining wall</button>
+        <button type="button" class="chip" aria-pressed="false">Driveway</button>
+        <button type="button" class="chip" aria-pressed="false">Patio</button>
+        <button type="button" class="chip" aria-pressed="false">Turf</button>
+        <button type="button" class="chip" aria-pressed="false">Deck or fence</button>
+        <button type="button" class="chip" aria-pressed="false">Full yard</button>
+      </div>
+      <a href="#estimate" class="btn btn-lime">Get a Free Estimate</a>
+    </div>
+  </div>
+</section>
+
+<!-- Mobile menu (only used on screens narrower than 960px) -->
+<div class="mobile-menu" id="mobile-menu" hidden>
+  <div class="mobile-menu-top">
+    <span class="logo-word">abba</span>
+    <button type="button" class="menu-btn" data-menu-close>Close</button>
+  </div>
+  <a href="#services" class="mm-link">Services</a>
+  <a href="#projects" class="mm-link">Projects</a>
+  <a href="#about" class="mm-link">About</a>
+  <a href="#reviews" class="mm-link">Reviews</a>
+  <a href="#estimate" class="mm-link">Contact</a>
+  <a href="tel:+16045550147" class="mm-phone">(604) 555-0147</a>
+  <span class="mm-hours">Mon to Sat, 7am to 6pm</span>
+</div>
+
+<!-- ===================== PROOF STRIP ===================== -->
+<section class="proof">
+  <div class="wrap">
+    <span class="badge-item"><span class="badge">HomeStars</span>Best of 2023</span>
+    <span class="badge-item"><span class="badge">BBB</span>Accredited business</span>
+    <span>17 years in business</span>
+    <span>Licensed and insured</span>
+    <span>Serving 12+ Lower Mainland cities</span>
+  </div>
+</section>
+
+<!-- ===================== ABOUT / INTRO ===================== -->
+<section id="about" class="intro">
+  <div class="wrap">
+    <div class="intro-text">
+      <p class="intro-lead">We started in 2009 laying stone in Surrey. Today the same crew digs the base, builds the wall, lays the pavers and frames the deck. <span>Nothing gets handed to a subcontractor you've never met.</span></p>
+      <div class="promises">
+        <p><strong>Fixed quotes</strong>The number on the quote is the number on the invoice.</p>
+        <p><strong>One point of contact</strong>The person who quotes your yard is there while it's built.</p>
+        <p><strong>Clean site daily</strong>Driveway swept and walkways clear every evening.</p>
+      </div>
+    </div>
+    <figure class="intro-photo">
+      <div class="photo ratio-4-5"><img src="https://www.abbalandscaping.ca/wp-content/uploads/2026/05/IMG-20240412-WA00192.jpg-1-576x1024.jpeg" alt="Abba crew on site in Surrey" loading="lazy"></div>
+      <figcaption>The crew on a Surrey job, spring 2024.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ===================== SERVICES (tabs) ===================== -->
+<section id="services" class="section bg-stone">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="big-title">What we build</h2>
+      <p class="services-intro">Five trades, one crew. Most of our jobs combine two or three of them.</p>
+    </div>
+    <div class="services-layout">
+      <div class="svc-tabs" role="tablist" aria-label="Services">
+        <button type="button" class="svc-tab" role="tab" id="tab-walls" aria-controls="svc-walls" aria-selected="true">Retaining walls</button>
+        <button type="button" class="svc-tab" role="tab" id="tab-pavers" aria-controls="svc-pavers" aria-selected="false">Driveways and patios</button>
+        <button type="button" class="svc-tab" role="tab" id="tab-turf" aria-controls="svc-turf" aria-selected="false">Synthetic turf</button>
+        <button type="button" class="svc-tab" role="tab" id="tab-carpentry" aria-controls="svc-carpentry" aria-selected="false">Outdoor carpentry</button>
+        <button type="button" class="svc-tab" role="tab" id="tab-masonry" aria-controls="svc-masonry" aria-selected="false">Masonry and stone</button>
+        <p class="svc-also">We also do irrigation, landscape lighting and water features.</p>
+      </div>
+
+      <div class="svc-panels">
+        <!-- TODO: "Learn more" links point back to the estimate form until separate service pages exist -->
+        <div class="svc-panel" role="tabpanel" id="svc-walls" aria-labelledby="tab-walls">
+          <div class="photo ratio-16-9"><img src="https://www.abbalandscaping.ca/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-25-at-18.22.5f0.jpg" alt="Block retaining wall with step lights"></div>
+          <div class="svc-detail">
+            <div class="svc-copy">
+              <h3>Hardscapes and Retaining Walls</h3>
+              <p>Block, concrete, timber and boulder walls that turn a slope into usable yard. Drain rock and pipe behind every one, so water never pushes them over.</p>
+            </div>
+            <ul class="svc-list">
+              <li>Engineered walls over 4 ft</li><li>Terracing and stone steps</li><li>Drainage built in</li><li>Cap lights and wiring</li>
+            </ul>
+          </div>
+          <div class="svc-actions">
+            <a href="#estimate" class="btn btn-dark">Get a Free Estimate</a>
+            <span class="svc-price">Most walls: $8,000 to $45,000</span>
+          </div>
+        </div>
+
+        <div class="svc-panel" role="tabpanel" id="svc-pavers" aria-labelledby="tab-pavers" hidden>
+          <div class="photo ratio-16-9"><img src="https://www.abbalandscaping.ca/wp-content/uploads/2023/09/IMG-20210613-WA0009.jpg" alt="Paver driveway at a Richmond front yard" loading="lazy"></div>
+          <div class="svc-detail">
+            <div class="svc-copy">
+              <h3>Paver Driveways and Patios</h3>
+              <p>Pavers fail when the base is thin. We dig 8 to 12 inches, compact gravel in lifts, then lay. Two winters later, nothing has moved.</p>
+            </div>
+            <ul class="svc-list">
+              <li>Old concrete removed and hauled</li><li>Permeable paver options</li><li>Natural stone and porcelain</li><li>Polymeric sand and sealing</li>
+            </ul>
+          </div>
+          <div class="svc-actions">
+            <a href="#estimate" class="btn btn-dark">Get a Free Estimate</a>
+            <span class="svc-price">Most jobs: $12,000 to $60,000</span>
+          </div>
+        </div>
+
+        <div class="svc-panel" role="tabpanel" id="svc-turf" aria-labelledby="tab-turf" hidden>
+          <div class="photo ratio-16-9"><img src="https://www.abbalandscaping.ca/wp-content/uploads/2023/09/IMG-20210613-WA0069.jpg" alt="Synthetic turf yard with a fire pit in Langley" loading="lazy"></div>
+          <div class="svc-detail">
+            <div class="svc-copy">
+              <h3>Synthetic Turf</h3>
+              <p>Green through a West Coast winter and dry an hour after rain. Good for dogs, kids, and shady yards where grass gives up.</p>
+            </div>
+            <ul class="svc-list">
+              <li>Sod removal and grading</li><li>Compacted gravel base</li><li>Pet turf with odour-control infill</li><li>Putting greens</li>
+            </ul>
+          </div>
+          <div class="svc-actions">
+            <a href="#estimate" class="btn btn-dark">Get a Free Estimate</a>
+            <span class="svc-price">Most jobs: $6,000 to $25,000</span>
+          </div>
+        </div>
+
+        <div class="svc-panel" role="tabpanel" id="svc-carpentry" aria-labelledby="tab-carpentry" hidden>
+          <div class="photo ratio-16-9"><img src="https://www.abbalandscaping.ca/wp-content/uploads/2023/09/IMG-20210802-WA0031-1.jpg" alt="Cedar fence, steps and patio in New Westminster" loading="lazy"></div>
+          <div class="svc-detail">
+            <div class="svc-copy">
+              <h3>Outdoor Carpentry</h3>
+              <p>Fences, decks, pergolas and gazebos in cedar, pressure-treated or composite. Built by the same crew as your hardscape, so the levels line up.</p>
+            </div>
+            <ul class="svc-list">
+              <li>Cedar and composite decks</li><li>Privacy fences and gates</li><li>Pergolas and gazebos</li><li>Benches and planters</li>
+            </ul>
+          </div>
+          <div class="svc-actions">
+            <a href="#estimate" class="btn btn-dark">Get a Free Estimate</a>
+            <span class="svc-price">Most jobs: $9,000 to $50,000</span>
+          </div>
+        </div>
+
+        <div class="svc-panel" role="tabpanel" id="svc-masonry" aria-labelledby="tab-masonry" hidden>
+          <div class="photo ratio-16-9"><img src="https://www.abbalandscaping.ca/wp-content/uploads/2026/05/IMG-20260329-WA004411_1778766468128.jpg-scaled.webp" alt="Stone and hardscape work in Coquitlam" loading="lazy"></div>
+          <div class="svc-detail">
+            <div class="svc-copy">
+              <h3>Masonry and Stone Veneer</h3>
+              <p>The trade we started with. Stone veneer on house fronts and columns, outdoor fireplaces, fire pits and steps that hold up to freeze and thaw.</p>
+            </div>
+            <ul class="svc-list">
+              <li>Natural and manufactured veneer</li><li>Fireplaces and fire pits</li><li>Columns and entry walls</li><li>Brick and stone repair</li>
+            </ul>
+          </div>
+          <div class="svc-actions">
+            <a href="#estimate" class="btn btn-dark">Get a Free Estimate</a>
+            <span class="svc-price">Most jobs: $5,000 to $35,000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section id="projects" class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 class="big-title" style="max-width:11ch">Recent yards</h2>
+    </div>
+    <div class="projects-grid">
+      <article class="project project-feature">
+        <div class="photo ratio-16-9"><img src="https://www.abbalandscaping.ca/wp-content/uploads/2026/05/IMG-20260329-WA004411_1778766468128.jpg-scaled.webp" alt="Surrey backyard rebuild" loading="lazy"></div>
+        <div class="project-feature-text">
+          <span class="project-place">Surrey, 2025</span>
+          <h3>Full backyard rebuild</h3>
+          <p>1,100 sq ft pavers, a 40 ft retaining wall with drainage to the street, and turf across the rest. Four weeks.</p>
+        </div>
+      </article>
+      <article class="project">
+        <div class="photo ratio-4-3"><img src="https://www.abbalandscaping.ca/wp-content/uploads/2023/09/IMG-20210802-WA0031-1.jpg" alt="Burnaby patio, turf and cedar fence" loading="lazy"></div>
+        <div><span class="project-place">Burnaby</span><h3>Patio, turf and cedar fence</h3></div>
+      </article>
+      <article class="project">
+        <div class="photo ratio-4-3"><img src="https://www.abbalandscaping.ca/wp-content/uploads/2023/09/IMG-20210613-WA0009.jpg" alt="Richmond driveway" loading="lazy"></div>
+        <div><span class="project-place">Richmond</span><h3>1,450 sq ft paver driveway</h3></div>
+      </article>
+      <article class="project">
+        <div class="photo ratio-4-3"><img src="https://www.abbalandscaping.ca/wp-content/uploads/2023/09/IMG-20210613-WA0069.jpg" alt="Langley turf yard" loading="lazy"></div>
+        <div><span class="project-place">Langley</span><h3>Turf yard with fire pit</h3></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HOW IT WORKS ===================== -->
+<section class="section process">
+  <div class="wrap">
+    <h2 class="big-title">From first call to final walkthrough</h2>
+    <div class="steps">
+      <div class="step">
+        <span class="step-when">Within a week of your call</span>
+        <h3>Site visit</h3>
+        <p>We walk the yard with you, take levels and measurements, and talk through options. Free.</p>
+      </div>
+      <div class="step">
+        <span class="step-when">A few days later</span>
+        <h3>Design and quote</h3>
+        <p>A layout drawing and an itemized fixed quote. It only changes if you change the scope.</p>
+      </div>
+      <div class="step">
+        <span class="step-when">One to six weeks</span>
+        <h3>Build</h3>
+        <p>Our own crew, start to finish. You get a text update at the end of each day.</p>
+      </div>
+      <div class="step">
+        <span class="step-when">Last day on site</span>
+        <h3>Walkthrough</h3>
+        <p>We walk it together, fix anything you point out, and leave you care notes for year one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== REVIEWS ===================== -->
+<!-- TODO: confirm rating, review count and quotes are real before launch -->
+<section id="reviews" class="section reviews">
+  <div class="wrap">
+    <div class="rating-row">
+      <div class="rating">
+        <span class="rating-score">4.9</span>
+        <div class="rating-info">
+          <span class="rating-stars" aria-label="5 stars">★★★★★</span>
+          <span class="rating-count">86 reviews on HomeStars</span>
+          <span class="rating-note">Best of 2023, landscaping</span>
+        </div>
+      </div>
+      <!-- TODO: add the HomeStars profile link -->
+      <a href="#" class="text-link">Read them all on HomeStars</a>
+    </div>
+    <div class="quotes">
+      <figure class="quote">
+        <blockquote>“Abba rebuilt our whole backyard in Coquitlam. Retaining wall, pavers, turf. The crew showed up when they said they would and the finish is better than the renders.”</blockquote>
+        <figcaption>Sandra M., Coquitlam</figcaption>
+      </figure>
+      <figure class="quote">
+        <blockquote>“Our old timber wall was leaning into the neighbour's yard. They brought in the engineer and had a block wall up in nine days. Site was clean every night.”</blockquote>
+        <figcaption>Daniel K., North Vancouver</figcaption>
+      </figure>
+      <figure class="quote">
+        <blockquote>“Paver driveway and front walk. The quote was the price, no surprises. Two winters later not one paver has moved.”</blockquote>
+        <figcaption>Priya S., Surrey</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICE AREA ===================== -->
+<section class="area bg-stone">
+  <div class="wrap">
+    <p class="area-note">Based in Surrey, working within about an hour of the yard. Not sure we cover your street? Call and ask.</p>
+    <p class="area-cities">Vancouver, West Vancouver, North Vancouver, Burnaby, Richmond, New Westminster, Surrey, Coquitlam, Port Coquitlam, Port Moody, Langley, Pitt Meadows, Delta <span>and White Rock.</span></p>
+  </div>
+</section>
+
+<!-- ===================== ESTIMATE FORM ===================== -->
+<section id="estimate" class="section estimate">
+  <div class="wrap">
+    <div class="estimate-intro">
+      <h2 class="big-title">Ready to plan your project?</h2>
+      <p>Site visits and estimates are free. You'll have a fixed quote within a few days of us seeing the yard.</p>
+      <div class="contact-lines">
+        <a href="tel:+16045550147" class="big-phone">(604) 555-0147</a>
+        <a href="mailto:info@abbalandscaping.ca" class="email">info@abbalandscaping.ca</a>
+        <span class="hours">Mon to Sat, 7am to 6pm</span>
+      </div>
+    </div>
+
+    <div class="estimate-form-wrap">
+      <!-- The form is set up for Netlify Forms (data-netlify). Submissions show up in
+           the Netlify dashboard under "Forms". -->
+      <form class="form" name="estimate" method="POST" action="/" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field" data-estimate-form>
+        <input type="hidden" name="form-name" value="estimate">
+        <p class="honeypot"><label>Leave this empty <input name="bot-field"></label></p>
+
+        <label>Name<input name="name" required autocomplete="name"></label>
+        <label>Phone<input name="phone" required type="tel" autocomplete="tel"></label>
+        <label>Email<input name="email" required type="email" autocomplete="email"></label>
+        <label>City
+          <select name="city" required>
+            <option value="">Choose</option><option>Vancouver</option><option>West Vancouver</option><option>North Vancouver</option><option>Burnaby</option><option>Richmond</option><option>New Westminster</option><option>Surrey</option><option>Coquitlam</option><option>Port Coquitlam</option><option>Port Moody</option><option>Langley</option><option>Pitt Meadows</option><option>Delta</option><option>White Rock</option><option>Somewhere else</option>
+          </select>
+        </label>
+        <label>Project type
+          <select name="project-type" data-project-type>
+            <option value="">Choose</option><option>Retaining wall</option><option>Driveway</option><option>Patio</option><option>Turf</option><option>Deck or fence</option><option>Full yard</option><option>Masonry or stone</option><option>Something else</option>
+          </select>
+        </label>
+        <label>Rough budget
+          <select name="budget">
+            <option>Not sure yet</option><option>Under $15,000</option><option>$15,000 to $30,000</option><option>$30,000 to $60,000</option><option>$60,000 to $100,000</option><option>Over $100,000</option>
+          </select>
+        </label>
+        <label class="full">Tell us about the yard<textarea name="message" rows="4" placeholder="What's there now, what you want, roughly how big. Slopes and tight access are good to know."></textarea></label>
+        <label class="full photos">
+          <span class="photos-btn">Add photos</span>
+          <span class="photos-text" data-photos-text>Wide shots of the whole area help us quote faster.</span>
+          <input type="file" name="photos" multiple accept="image/*" data-photos>
+        </label>
+        <div class="full form-actions">
+          <button type="submit" class="btn btn-lime">Get a Free Estimate</button>
+          <span class="form-note">We call back within one business day.</span>
+        </div>
+        <p class="full form-error" data-form-error hidden>Sorry, that didn't send. Please call us at <a href="tel:+16045550147">(604) 555-0147</a> or email <a href="mailto:info@abbalandscaping.ca">info@abbalandscaping.ca</a>.</p>
+      </form>
+
+      <div class="thanks" data-thanks hidden>
+        <h3>Got it. We'll call you within one business day to book the site visit.</h3>
+        <button type="button" class="btn-outline" data-send-another>Send another</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="wrap footer-main">
+    <div class="footer-brand">
+      <span class="logo"><span class="logo-word">abba</span><span class="logo-sub">landscape<br>construction</span></span>
+      <span>Abba Landscaping Inc.<br>Surrey, BC</span>
+      <span class="bbb">BBB Accredited Business</span>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#estimate">Contact</a>
+    </nav>
+    <div class="footer-contact">
+      <a href="tel:+16045550147" class="footer-phone">(604) 555-0147</a>
+      <a href="mailto:info@abbalandscaping.ca" class="email">info@abbalandscaping.ca</a>
+      <span>Mon to Sat, 7am to 6pm</span>
+      <!-- TODO: add real social media links -->
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+    <a href="#estimate" class="btn btn-lime">Get a Free Estimate</a>
+  </div>
+  <div class="wrap footer-legal">© 2026 Abba Landscaping Inc. Licensed and insured.</div>
+</footer>
+
+<!-- Sticky call bar (mobile only) -->
+<div class="call-bar">
+  <a href="tel:+16045550147" class="call">Call</a>
+  <a href="#estimate" class="get">Get Estimate</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
